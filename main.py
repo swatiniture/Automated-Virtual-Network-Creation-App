@@ -22,7 +22,6 @@ except Exception as e:
     print('Please install all the necessary modules', e)
     sys.exit()
 
-
 auth = identity.Password(username='admin',
                          password='secret',
                          project_name='lab8',
