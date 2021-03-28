@@ -15,6 +15,3 @@ def create_new_vm(nova):
 
     except Exception as e:
         print('Exception occurred', e)
-
-
-
