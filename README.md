@@ -23,7 +23,3 @@ Run the 'main.py' to run the application. The 'main.py' script imports all the r
 # Testing
 
 The frr.py script shows the status of BGP peering relationship and test.py checks the SSH connectivity and reachability.
-
-
-
-
