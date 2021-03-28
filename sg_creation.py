@@ -27,5 +27,4 @@ def create_sg(neutron):
 
     except Exception as e:
         print('Exception occurred', e)
-
-
+        
