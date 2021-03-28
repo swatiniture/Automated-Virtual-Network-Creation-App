@@ -6,9 +6,17 @@ This repository provides an application for automated creation of virtual networ
 
 One-click python script enables end-to-end VM communication in OpenStack and formation of BGP peering between FRR and RYU SDN controller. This significantly reduces the time required to configure networks using command line.
 
+# Requirements
+
+OpenStack should be installed (I used OpenStack version 5.4.0, Victoria).
+Docker should be installed. 
+pip/pip3 packages required: python-neutronclinet, python-novaclient, keystoneauth1, netmiko
+
+
 # How to run?
 
 Run the 'main.py' to run the application. The 'main.py' script imports all the remaining modules.
+You can use the default project or create your own, along with new user or default user. Here, the project is already created before bringing up anything else.
 
 # Files 
 
