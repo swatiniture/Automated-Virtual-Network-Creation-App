@@ -14,6 +14,7 @@ def create_fip(neutron, nova):
             if i['device_id'] in list_vm_ids:
                 list_port_ids.append(i['id'])
                 mapping[(i['device_id'])] = i['id']
+                
         neutron.format = 'json'
         
         for vm, port_id in mapping.items():
