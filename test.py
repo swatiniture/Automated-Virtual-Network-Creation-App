@@ -27,5 +27,3 @@ def test_connectivity(neutron):
         net_connect.disconnect()
     except Exception as e:
         print(e)
-
-
