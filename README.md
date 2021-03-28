@@ -1,6 +1,6 @@
 # Automated-Virtual-Network-Creation-App
 
-This repository provides an application for automated creation of virtual networks and BGP peering between FRR and RYU SDN controller.  
+This repository provides an application for automated creation of virtual networks (using python-neutronclient and python-novaclient APIs) and BGP peering between FRR and RYU SDN controller.  
 
 # Purpose
 
