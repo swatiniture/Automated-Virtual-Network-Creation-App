@@ -8,9 +8,9 @@ This app enables end-to-end VM communication in OpenStack and formation of BGP p
 
 # Requirements
 
-OpenStack should be installed (I used OpenStack version 5.4.0, Victoria).
-Docker should be installed. 
-pip/pip3 packages required: python-neutronclinet, python-novaclient, keystoneauth1, netmiko
+1. OpenStack should be installed (I used OpenStack version 5.4.0, Victoria).
+2. Docker should be installed. 
+3. pip/pip3 packages required: python-neutronclinet, python-novaclient, keystoneauth1, netmiko
 
 
 # How to run?
