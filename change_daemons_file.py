@@ -1,5 +1,10 @@
-import re
-import os
+try:
+    import re
+    import os
+    import sys
+except Exception as e:
+    print('Please install all the necessary modules', e)
+    sys.exit()
 
 with open('/etc/frr/daemons', 'r+') as f:
     text = f.read()
