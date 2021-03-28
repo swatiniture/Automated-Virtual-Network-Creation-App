@@ -4,7 +4,7 @@ This repository provides an application for automated creation of virtual networ
 
 # Purpose
 
-One-click python script enables end-to-end VM communication in OpenStack and formation of BGP peering between FRR and RYU SDN controller. This significantly reduces the time required to configure networks using command line.
+This app enables end-to-end VM communication in OpenStack and formation of BGP peering between FRR and RYU SDN controller. This significantly reduces the time required to configure networks using command line.
 
 # Requirements
 
