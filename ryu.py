@@ -21,5 +21,6 @@ def push_conf_ryu(os, time):
         'docker exec -d -it ryu ryu-manager /root/ryu/ryu/services/protocols/bgp/application.py --bgp-app-config-file  '
         '/root/ryu/ryu/services/protocols/bgp/conf_file')
     os.system('docker ps -a')
+    
     time.sleep(5)
 
