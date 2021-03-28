@@ -26,7 +26,7 @@ def push_conf_frr(os, time):
     print('\n******** Running containers ********\n')
     os.system('docker ps -a')
 
-    print('\n******** Checking ip BGP neighbors ********\n')
+    print('\n******** Checking BGP neighbors ********\n')
     out1 = os.popen('docker exec -it quagga_new vtysh -c "sh ip bgp neighbors"').read()
     print(out1)
     out2 = os.popen('docker exec -it quagga_new vtysh -c "sh ip bgp summary"').read()
