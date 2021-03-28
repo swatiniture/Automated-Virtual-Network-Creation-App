@@ -27,6 +27,7 @@ You can use the default project or create your own, along with new user or defau
 5. fip_creation.py: Creates and associates floating IPs to instances for SSH connectivity and reachability to instances from external networks
 6. ryu.py: Creates a RYU SDN docker container, adds a BGP config file to peer with FRR docker container (uses bgp_sample_conf.py)
 7. frr.py: Creates an FRR docker container, makes changes in daemons file to enable BGP and adds a config file to peer with RYU SDN docker controller (uses change_daemons_file.py and my_frr_conf)
+8. script_output.pdf: Shows the output after running main.py
 
 # Testing
 
