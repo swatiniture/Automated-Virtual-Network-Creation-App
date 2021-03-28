@@ -1,8 +1,7 @@
 def create_network(neutron):
     try:
         print('\n******** Creating Networks and Subnets ********\n')
-        networks = {'net1': '10.10.10.0/24', 'net2': '20.20.20.0/24'}
-        
+        networks = {'net1': '10.10.10.0/24', 'net2': '20.20.20.0/24'}   
         for network, ip in networks.items():
             data = {'network': {'name': network, 'admin_state_up': True}}
             netw = neutron.create_network(body=data)
