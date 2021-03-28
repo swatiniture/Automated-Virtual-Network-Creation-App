@@ -1,7 +1,5 @@
 # Automated-Virtual-Network-Creation-App
 
-# What is it about
-
 This repository provides an application for automated creation of virtual networks and BGP peering between FRR and RYU SDN controller.  
 
 # Purpose
