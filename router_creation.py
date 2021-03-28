@@ -50,3 +50,4 @@ def create_router(neutron, nova):
 
     except Exception as e:
         print('Exception occurred', e)
+        
