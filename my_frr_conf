@@ -1,0 +1,27 @@
+frr version 7.5.1
+frr defaults traditional
+hostname 07923baf9898
+log syslog informational
+no ipv6 forwarding
+hostname frr
+service integrated-vtysh-config
+!
+interface lo
+ ip address 10.0.0.1/32
+!
+router bgp 1
+ no bgp ebgp-requires-policy
+ neighbor 172.17.0.2 remote-as 2
+ !
+ address-family ipv4 unicast
+  network 10.0.0.1/32
+  neighbor 172.17.0.2 prefix-list ryu-routes in
+  neighbor 172.17.0.2 route-map frr-routes out
+ exit-address-family
+!
+ip prefix-list ryu-routes seq 5 permit 20.0.0.0/24
+!
+route-map frr-routes permit 10
+!
+line vty
+!
