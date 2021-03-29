@@ -10,13 +10,13 @@ This app enables end-to-end VM communication in OpenStack and formation of BGP p
 
 1. OpenStack (I used OpenStack version 5.4.0, Victoria)
 2. Docker
-3. pip/pip3 packages: python-neutronclinet, python-novaclient, keystoneauth1, netmiko
+3. pip/pip3 packages: python-neutronclient, python-novaclient, keystoneauth1, netmiko
 
 
 # How to run?
 
 Run the 'main.py' to run the application. The 'main.py' script imports all the remaining modules.
-You can use the default project or create your own, along with new user or default user. Here, the project is already created before bringing up anything else.
+You can use the default project or create your own in OpenStack, along with new user or default user. Here, the project is already created before bringing up anything else.
 
 # Files 
 
